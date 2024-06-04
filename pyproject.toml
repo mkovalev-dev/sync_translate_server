@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "sync-translate-server"
+version = "0.1.0"
+description = ""
+authors = ["maximkovalev <mkovalev-dev@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+websocket = "^0.2.1"
+fastapi-socketio = "^0.0.10"
+loguru = "^0.7.2"
+speechrecognition = "^3.10.4"
+pydub = "^0.25.1"
+deepl = "^1.18.0"
+translate = "^3.6.1"
+gtts = "^2.5.1"
+moviepy = "^1.0.3"
+deep-translator = "^1.11.4"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
